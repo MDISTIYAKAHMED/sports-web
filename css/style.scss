@@ -123,7 +123,7 @@ $rd-color: #cc0000;
                 }
             }
             .video_bar{
-                width: 95rem;
+                width: 120rem;
                 height: auto;
                 background-color: #000000;
                 padding: 0.5rem 0.3rem;
@@ -133,13 +133,15 @@ $rd-color: #cc0000;
                     align-items: center;
 
                     .frt_part{
-                        width: 15rem;
+                        width: 17rem;
                         display: flex;
                         justify-content: space-between;
+                        align-items: center;
                         color: $tx-color;
                         a{
                             color: $tx-color;
                             margin: 0.8rem;
+                            display: inline-block;
                         }
                     }
                     .load_control{
