@@ -1,0 +1,11 @@
+RewriteEngine on 
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [NC,L]
+
+RewriteRule ^index index.html [NC,L]
+RewriteRule ^dmca dmca.html [NC,L]
+RewriteRule ^privacy_&_policy privacy_&_policy.html [NC,L]
+RewriteRule ^contact_us contact_us.html [NC,L]
+RewriteRule ^trams_&_condition trams_&_condition.html [NC,L]
